@@ -4,7 +4,7 @@ library(RTextTools)
 library(topicmodels)
 library(e1071)
 
-setwd("filesdirectory")
+setwd("path to file directory") #path to file directory containing trainingdata.txt and testfile.txt (input)
 
 #Importing data
 source <- readLines("trainingdata.txt")
