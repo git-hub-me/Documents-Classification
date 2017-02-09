@@ -10,6 +10,6 @@ I have also included code to insert a test file of your inputs so as to obtain i
 
 -> I used Support Vector Machine Model to train the matrix. 
 
- # The model showed 94% accuracy rate with 1025 documents correctly sorted out of 1085 testsize.
+ # The model showed 94% accuracy rate with 1020 documents correctly sorted out of 1085 testsize.
 
 -> Lastly, I would like to thank you for the exciting problem. This was my first attempt on text classification and learned a lot from it. Apart from tm and RTextTools, I also got the opportunity to dive into tidytext package, LDA topic modelling.
