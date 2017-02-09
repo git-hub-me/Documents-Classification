@@ -1,4 +1,3 @@
-# LoktraSubmission
 Solution to the document classification problem
 
 As you instructed me, I have used the training data to calculate the accuracy.
