@@ -1,3 +1,10 @@
+#install required packages
+install.packages(stringr)
+install.packages(tm)
+install.packages(RTextTools)
+install.packages(topicmodels)
+install.packages(e1071)
+
 library(stringr)
 library(tm)
 library(RTextTools)
