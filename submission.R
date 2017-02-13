@@ -44,6 +44,6 @@ testmat <- create_matrix(test$document,originalMatrix = mat )
 testcontainer <- create_container(testmat, labels=rep(0,l), testSize = 1:l,virgin = FALSE)
 testresults <- classify_model(testcontainer, model)
 
-#writing a output file in specified format
+#writing an output file in specified format
 write.table(as.integer(testresults[,"SVM_LABEL"]),"output.txt",row.names = FALSE, col.names = FALSE)
 
