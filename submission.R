@@ -44,6 +44,10 @@ l <- length(test)-1 #first line specifies no of lines
 test <- data.frame(matrix(unlist(test[-1]), nrow=l, byrow=T))
 test <- setNames(test, c("document"))
 
+#change in function: "Acronym" to "acronym"
+print("please go to line 42 in the function window pop up and change 'Acronym' to 'acronym'. ")
+trace("create_matrix", edit=T)
+
 #matrix creation based on training matrix
 testmat <- create_matrix(test$document,originalMatrix = mat )
 
