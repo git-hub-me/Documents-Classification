@@ -11,10 +11,9 @@ library(RTextTools)
 library(topicmodels)
 library(e1071)
 
-setwd("path to file directory") #path to file directory containing trainingdata.txt and testfile.txt (input)
 
 #Importing data
-source <- readLines("trainingdata.txt")
+source <- readLines("https://raw.githubusercontent.com/Loktra/Data-Scientist/master/trainingdata.txt")
 m = as.integer(source[1])  
 
 #splitting the data into line category and document
